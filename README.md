@@ -12,14 +12,14 @@ You are assigned to create the results page for the Tzoker lottery (https://tzok
 1. Change the color of the link according to your palette
 1. Add a favicon
 
-## Steps
+## Notes
 1. First of all create the Github repository (public) and then clone it in your computer.
-1. Try toollow the steps, in their order. This is not a strict directive; you may use your own path. But ...
+1. Try to follow the steps, in their order. This is not a strict directive; you may use your own path. But ...
     1. you should try to *finish a step before move to the other*.
 1. After you commplete a step, test it. If there are problems, debug. If you are successful, commit using an appropriate message (ie *Remove table border* or *Add favicon*).
 1. This is a single page so you could use internal stylesheet. Please use an *external* one, isntead.
 1. Your page should have a title and a background color. First thing is to select your color palette.
 
-## Tips
+## Tips (do not read if confident :) )
 1. The table always has a border. The point is to hide it.
 2. The border defines the area (eg when you define the background color, you fill the are inside the border). So you should shape the border.
