@@ -52,3 +52,19 @@ td.numbers.winner {
     background-color: gold;
 }
 
+td.winning-numbers {
+    background-color: #838282;
+}
+
+td.winning-numbers.winner {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+
+td.tzoker {
+    background-color: gold;
+    color: #838282;
+}
+
