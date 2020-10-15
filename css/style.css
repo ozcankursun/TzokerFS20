@@ -4,3 +4,19 @@ body {
     background-color: #bfbfbf;
     color: #c63222;
 }
+
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+td.odd {
+    color: blueviolet;
+    background: chocolate;
+}
+
+td.even {
+    color: burlywood;
+    background-color: darkcyan;
+}
