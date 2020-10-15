@@ -9,6 +9,7 @@ td {
     width: 30px;
     height: 30px;
     text-align: center;
+    border-radius: 50%;
 }
 
 td.odd {
