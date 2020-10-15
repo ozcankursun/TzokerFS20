@@ -12,12 +12,26 @@ td {
     border-radius: 50%;
 }
 
-td.odd {
-    color: blueviolet;
-    background: chocolate;
+table.draw {
+    color: purple;
 }
 
-td.even {
-    color: burlywood;
-    background-color: darkcyan;
+td.draw-odd {
+    background: lightpink;
+}
+
+td.draw-even {
+    background: lightgoldenrodyellow;
+}
+
+table.numbers {
+    color: slateblue;
+}
+
+td.numbers-odd {
+    background: lightyellow;
+}
+
+td.numbers-even {
+    background: lightcyan;
 }
