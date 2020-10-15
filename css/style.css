@@ -12,26 +12,37 @@ td {
     border-radius: 50%;
 }
 
-table.draw {
+td.draw {
     color: purple;
 }
 
-td.draw-odd {
+td.draw.odd {
     background: lightpink;
 }
 
-td.draw-even {
+td.draw.even {
     background: lightgoldenrodyellow;
 }
 
-table.numbers {
+td.draw.winner {
+    color: white;
+    background-color: darkgrey;
+}
+
+td.numbers {
     color: slateblue;
 }
 
-td.numbers-odd {
+td.numbers.odd {
     background: lightyellow;
 }
 
-td.numbers-even {
+td.numbers.even {
     background: lightcyan;
 }
+
+td.numbers.winner {
+    color: white;
+    background-color: gold;
+}
+
