@@ -5,65 +5,67 @@ body {
     color: #c63222;
 }
 
-td {
-    width: 30px;
-    height: 30px;
+span.number {
+    display: inline-block;
+    width: 1.9rem;
+    line-height: 1.9rem;
+    vertical-align: middle;
     text-align: center;
     border-radius: 50%;
 }
 
-td.draw {
+span.draw {
     border-style: solid;
     border-width: 2px;
     border-color: red;
     color: purple;
 }
 
-td.draw.odd {
+span.draw.odd {
     background: lightpink;
 }
 
-td.draw.even {
+span.draw.even {
     background: lightgoldenrodyellow;
 }
 
-td.draw.winner {
+span.draw.winner {
     color: white;
     background-color: darkgrey;
 }
 
-td.numbers {
+span.numbers {
     border-style: solid;
     border-width: 2px;
     border-color: red;
     color: slateblue;
 }
 
-td.numbers.odd {
+span.numbers.odd {
     background: lightyellow;
 }
 
-td.numbers.even {
+span.numbers.even {
     background: lightcyan;
 }
 
-td.numbers.winner {
+span.numbers.winner {
     color: white;
     background-color: gold;
 }
 
-td.winning-numbers {
+span.winning-numbers {
     background-color: #838282;
 }
 
-td.winning-numbers.winner {
+span.winning-numbers.winner {
     border-style: solid;
     border-width: 2px;
     border-color: white;
     color: white;
 }
 
-td.tzoker {
+span.tzoker {
     background-color: gold;
     color: #838282;
 }
