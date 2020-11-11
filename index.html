@@ -16,6 +16,16 @@
             }
             document.write("'>"+number+"</span>");
         }
+
+        function writeTzokerNumberCell(number, isEven) {
+            document.write("<span class='number numbers ");
+            if (!isEven) {
+                document.write("even");
+            } else {
+                document.write("odd");
+            }
+            document.write("'>"+number+"</span>");
+        }
     </script>
 </head>
 
@@ -91,34 +101,44 @@
     <h3>Tzoker number</h3>
     <div class="numbers">
         <div>
-            <span class="number numbers odd">1</span>
-            <span class="number numbers even">2</span>
-            <span class="number numbers odd">3</span>
-            <span class="number numbers even">4</span>
+            <script>
+                writeTzokerNumberCell(1, false)
+                writeTzokerNumberCell(2, true)
+                writeTzokerNumberCell(3, false)
+                writeTzokerNumberCell(4, true)
+            </script>
         </div>
         <div>
-            <span class="number numbers odd">5</span>
-            <span class="number numbers even">6</span>
-            <span class="number numbers odd">7</span>
-            <span class="number numbers even">8</span>
+            <script>
+                writeTzokerNumberCell(5, false)
+                writeTzokerNumberCell(6, true)
+                writeTzokerNumberCell(7, false)
+                writeTzokerNumberCell(8, true)
+            </script>
         </div>
         <div>
-            <span class="number numbers odd">9</span>
-            <span class="number numbers even">10</span>
-            <span class="number numbers odd">11</span>
-            <span class="number numbers even">12</span>
+            <script>
+                writeTzokerNumberCell(9, false)
+                writeTzokerNumberCell(10, true)
+                writeTzokerNumberCell(11, false)
+                writeTzokerNumberCell(12, true)
+            </script>
         </div>
         <div>
-            <span class="number numbers odd winner">13</span>
-            <span class="number numbers even">14</span>
-            <span class="number numbers odd">15</span>
-            <span class="number numbers even">16</span>
+            <script>
+                writeTzokerNumberCell(13, false)
+                writeTzokerNumberCell(14, true)
+                writeTzokerNumberCell(15, false)
+                writeTzokerNumberCell(16, true)
+            </script>
         </div>
         <div>
-            <span class="number numbers odd">17</span>
-            <span class="number numbers even">18</span>
-            <span class="number numbers odd">19</span>
-            <span class="number numbers even">20</span>
+            <script>
+                writeTzokerNumberCell(17, false)
+                writeTzokerNumberCell(18, true)
+                writeTzokerNumberCell(19, false)
+                writeTzokerNumberCell(20, true)
+            </script>
         </div>
     </div>
     <h3>Winning numbers for 30/2/2020</h3>
