@@ -7,12 +7,14 @@
     <title>Tzoker results</title>
     <link rel="stylesheet" href="css/style.css">
     <script>
-        function writeWinSimpleNumberCell(number) {
-            document.write("<span class='number winning-numbers winner'>"+number+"</span>");
-        }
-
-        function writeWinTzokerNumberCell(number) {
-            document.write("<span class='number winning-numbers tzoker'>"+number+"</span>");
+        function writeWinNumberCell(number, isTzoker) {
+            document.write("<span class='number winning-numbers ");
+            if (!isTzoker) {
+                document.write("winner");
+            } else {
+                document.write("tzoker");
+            }
+            document.write("'>"+number+"</span>");
         }
     </script>
 </head>
@@ -123,12 +125,12 @@
     <div>
         <div>
             <script>
-                writeWinSimpleNumberCell(22,);
-                writeWinSimpleNumberCell(24);
-                writeWinSimpleNumberCell(35);
-                writeWinSimpleNumberCell(36);
-                writeWinSimpleNumberCell(41);
-                writeWinTzokerNumberCell(13);
+                writeWinNumberCell(22, false);
+                writeWinNumberCell(24, false);
+                writeWinNumberCell(35, false);
+                writeWinNumberCell(36, false);
+                writeWinNumberCell(41, false);
+                writeWinNumberCell(13, true);
             </script>
 
         </div>
