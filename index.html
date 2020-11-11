@@ -26,6 +26,17 @@
             }
             document.write("'>"+number+"</span>");
         }
+
+        function writeTzokerNumberRows() {
+            var number = 1;
+            for (var i=0; i<5; i++) {
+                document.write("<div>");
+                for (var j=0; j<4; j++) {
+                    writeTzokerNumberCell(number++);
+                }
+                document.write("</div>");
+            }
+        }
     </script>
 </head>
 
@@ -100,46 +111,9 @@
     </div>
     <h3>Tzoker number</h3>
     <div class="numbers">
-        <div>
-            <script>
-                writeTzokerNumberCell(1);
-                writeTzokerNumberCell(2);
-                writeTzokerNumberCell(3);
-                writeTzokerNumberCell(4);
-            </script>
-        </div>
-        <div>
-            <script>
-                writeTzokerNumberCell(5);
-                writeTzokerNumberCell(6);
-                writeTzokerNumberCell(7);
-                writeTzokerNumberCell(8);
-            </script>
-        </div>
-        <div>
-            <script>
-                writeTzokerNumberCell(9);
-                writeTzokerNumberCell(10);
-                writeTzokerNumberCell(11);
-                writeTzokerNumberCell(12);
-            </script>
-        </div>
-        <div>
-            <script>
-                writeTzokerNumberCell(13);
-                writeTzokerNumberCell(14);
-                writeTzokerNumberCell(15);
-                writeTzokerNumberCell(16);
-            </script>
-        </div>
-        <div>
-            <script>
-                writeTzokerNumberCell(17);
-                writeTzokerNumberCell(18);
-                writeTzokerNumberCell(19);
-                writeTzokerNumberCell(20);
-            </script>
-        </div>
+        <script>
+            writeTzokerNumberRows();
+        </script>
     </div>
     <h3>Winning numbers for 30/2/2020</h3>
     <div>
