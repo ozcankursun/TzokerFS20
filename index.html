@@ -17,9 +17,9 @@
             document.write("'>"+number+"</span>");
         }
 
-        function writeTzokerNumberCell(number, isEven) {
+        function writeTzokerNumberCell(number) {
             document.write("<span class='number numbers ");
-            if (!isEven) {
+            if (number % 2 != 0) {
                 document.write("even");
             } else {
                 document.write("odd");
@@ -102,42 +102,42 @@
     <div class="numbers">
         <div>
             <script>
-                writeTzokerNumberCell(1, false)
-                writeTzokerNumberCell(2, true)
-                writeTzokerNumberCell(3, false)
-                writeTzokerNumberCell(4, true)
+                writeTzokerNumberCell(1);
+                writeTzokerNumberCell(2);
+                writeTzokerNumberCell(3);
+                writeTzokerNumberCell(4);
             </script>
         </div>
         <div>
             <script>
-                writeTzokerNumberCell(5, false)
-                writeTzokerNumberCell(6, true)
-                writeTzokerNumberCell(7, false)
-                writeTzokerNumberCell(8, true)
+                writeTzokerNumberCell(5);
+                writeTzokerNumberCell(6);
+                writeTzokerNumberCell(7);
+                writeTzokerNumberCell(8);
             </script>
         </div>
         <div>
             <script>
-                writeTzokerNumberCell(9, false)
-                writeTzokerNumberCell(10, true)
-                writeTzokerNumberCell(11, false)
-                writeTzokerNumberCell(12, true)
+                writeTzokerNumberCell(9);
+                writeTzokerNumberCell(10);
+                writeTzokerNumberCell(11);
+                writeTzokerNumberCell(12);
             </script>
         </div>
         <div>
             <script>
-                writeTzokerNumberCell(13, false)
-                writeTzokerNumberCell(14, true)
-                writeTzokerNumberCell(15, false)
-                writeTzokerNumberCell(16, true)
+                writeTzokerNumberCell(13);
+                writeTzokerNumberCell(14);
+                writeTzokerNumberCell(15);
+                writeTzokerNumberCell(16);
             </script>
         </div>
         <div>
             <script>
-                writeTzokerNumberCell(17, false)
-                writeTzokerNumberCell(18, true)
-                writeTzokerNumberCell(19, false)
-                writeTzokerNumberCell(20, true)
+                writeTzokerNumberCell(17);
+                writeTzokerNumberCell(18);
+                writeTzokerNumberCell(19);
+                writeTzokerNumberCell(20);
             </script>
         </div>
     </div>
@@ -145,12 +145,12 @@
     <div>
         <div>
             <script>
-                writeWinNumberCell(22, false);
-                writeWinNumberCell(24, false);
-                writeWinNumberCell(35, false);
-                writeWinNumberCell(36, false);
-                writeWinNumberCell(41, false);
-                writeWinNumberCell(13, true);
+                writeWinNumberCell(22);
+                writeWinNumberCell(24);
+                writeWinNumberCell(35);
+                writeWinNumberCell(36);
+                writeWinNumberCell(41);
+                writeWinNumberCell(13);
             </script>
 
         </div>
