@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tzoker results</title>
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        function writeWinSimpleNumberCell(number) {
+            document.write("<span class='number winning-numbers winner'>"+number+"</span>");
+        }
+
+        function writeWinTzokerNumberCell(number) {
+            document.write("<span class='number winning-numbers tzoker'>"+number+"</span>");
+        }
+    </script>
 </head>
 
 <body>
@@ -113,12 +122,14 @@
     <h3>Winning numbers for 30/2/2020</h3>
     <div>
         <div>
-            <span class="number winning-numbers winner">22</span>
-            <span class="number winning-numbers winner">24</span>
-            <span class="number winning-numbers winner">35</span>
-            <span class="number winning-numbers winner">36</span>
-            <span class="number winning-numbers winner">41</span>
-            <span class="number winning-numbers tzoker">13</span>
+            <script>
+                writeWinSimpleNumberCell(22,);
+                writeWinSimpleNumberCell(24);
+                writeWinSimpleNumberCell(35);
+                writeWinSimpleNumberCell(36);
+                writeWinSimpleNumberCell(41);
+                writeWinTzokerNumberCell(13);
+            </script>
 
         </div>
     </div>
